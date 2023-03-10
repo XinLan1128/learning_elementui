@@ -184,7 +184,7 @@ a {
 .menuSider {
   width: 200px;
   margin: 15px;
-  height: 100vh;
+  height: calc(100vh - 30px);
   overflow: auto;
   .item {
     margin: 20px 0;
@@ -214,7 +214,7 @@ a {
 .content {
   flex: 1;
   margin: 15px;
-  height: 100vh;
+  height: calc(100vh - 30px);
   overflow: auto;
 }
 </style>
